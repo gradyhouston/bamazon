@@ -39,7 +39,7 @@ The <strong>Add New Product</strong> option allows the user to enter details abo
 
 To run the manager interface please follow the steps below:
 
-````git clone git@github.com:gradyhouston/bamazon.git
+```git clone git@github.com:gradyhouston/bamazon.git
 cd bamazon
 npm install
 node bamazonManager.js
