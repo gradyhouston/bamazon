@@ -10,22 +10,24 @@ In order to run this application, you should have the MySQL database already set
 
 The customer interface allows the user to view the current inventory of store items: item IDs, descriptions, department in which the item is located and price. The user is then able to purchase one of the existing items by entering the item ID and the desired quantity. If the selected quantity is currently in stock, the user's order is fulfilled, displaying the total purchase price and updating the store database. If the desired quantity is not available, the user is prompted to modify their order.
 
-To run the customer interface please follow the steps below:
+To run the Customer interface please follow the steps below:
 
 ```git clone git@github.com:gradyhouston/bamazon.git
 cd bamazon
 npm install
-node bamazonCustomer.js```
+node bamazonCustomer.js
+```
 
 <strong>Manager Interface</strong>
 
-The manager interface presents a list of four options, as below:
+The Manager interface presents a list of four options, as below:
 
 ```? Please select an option: (Use arrow keys)
 ❯ View Products for Sale
   View Low Inventory
   Add to Inventory
-  Add New Product```
+  Add New Product
+```
 
 The <strong>View Products for Sale</strong> option allows the user to view the current inventory of store items: item IDs, descriptions, department in which the item is located, price, and the quantity available in stock.
 
@@ -37,9 +39,10 @@ The <strong>Add New Product</strong> option allows the user to enter details abo
 
 To run the manager interface please follow the steps below:
 
-```git clone git@github.com:gradyhouston/bamazon.git
+````git clone git@github.com:gradyhouston/bamazon.git
 cd bamazon
 npm install
-node bamazonManager.js```
+node bamazonManager.js
+```
 
 This app was built using JavaScript, Node.js, Inquirer, and MySql.
